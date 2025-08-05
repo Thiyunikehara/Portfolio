@@ -565,3 +565,7 @@ nav ul li a:hover::after {
     width: 200px;
   }
 }
+.more-content {
+  display: none;
+}
+
