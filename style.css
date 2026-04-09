@@ -340,10 +340,31 @@ nav ul li a:hover::after {
 }
 
 /* Projects Section & Card Link Styling */
-.card-link {
+.card-container a,
+.card-container a:link,
+.card-container a:visited,
+.card-container a:hover,
+.card-container a:active,
+.card-link,
+a.card-link:link,
+a.card-link:visited,
+a.card-link:hover,
+a.card-link:active {
   text-decoration: none;
+  color: #f8fafc !important;
+}
+
+.card-link {
   display: block;
   height: 100%;
+}
+
+.card-link .card-content p,
+.card-container a .card-content p {
+  color: #f8fafc !important;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 16px 20px;
 }
 
 .card {
